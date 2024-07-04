@@ -1,0 +1,37 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(235, 21%, 11%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.top-header-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.top-header-img {
+    width: 100%;
+    max-width: 100vw;
+    min-width: 120vw;
+    height: auto;
+    display: block;
+}
+
+.header-title {
+    /* background-color: pink; */
+    color: white;
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    text-align: center;
+    font-size: 18px;
+    max-width: 90%;
+    max-height: 50%;
+    overflow: hidden;
+}
