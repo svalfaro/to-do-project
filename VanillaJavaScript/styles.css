@@ -23,15 +23,37 @@ html {
     display: block;
 }
 
-.header-title {
+.header-title-state-container {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(2%, 38%);
+    top: 2%;
+    left: 38%;
+}
+
+.title-container {
+    /* background-color: pink; */
+}
+
+h1 {
     /* background-color: pink; */
     color: white;
-    position: absolute;
-    top: 7%;
-    left: 30%;
     text-align: center;
-    font-size: 18px;
-    max-width: 90%;
-    max-height: 50%;
-    overflow: hidden;
+    font-size: 40px;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.input-container {
+    background-color: green;
+    width: 500px;
 }
